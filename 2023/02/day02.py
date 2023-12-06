@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import re
 from pathlib import Path
 
 
@@ -45,7 +44,6 @@ def power_of_cubes(cubes: dict) -> int:
 
 
 if __name__ == "__main__":
-    # input_file = Path("test_input.txt")
     input_file = Path("day02.txt")
     lines = input_file.read_text().splitlines()
     d = gen_dict(lines)
